@@ -1,6 +1,6 @@
 <?php
 // Enter your Host, username, password, database below.
-$conn = mysqli_connect("localhost","root","","company");
+$conn = mysqli_connect("localhost","root","","victimcorp");
 // Check connection
 if (mysqli_connect_errno())
   {

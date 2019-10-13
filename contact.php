@@ -108,7 +108,7 @@
 						<div class="section_title">Get in Touch</div>
 						<div class="section_subtitle">Say hello</div>
 						<div class="contact_form_container">
-							<form action="#" id="contact_form" class="contact_form" method="POST">
+							<form action="contact.php" id="contact_form" class="contact_form" method="POST">
 								<div class="row">
 									<div class="col-xl-6">
 										<!-- Name -->
@@ -130,7 +130,7 @@
 									<label for="contact_textarea">Message*</label>
 									<textarea id="contact_textarea" class="contact_input contact_textarea" required="required" name="message"></textarea>
 								</div>
-								<button class="button contact_button"><span>Send Message</span></button>
+								<button class="button contact_button" name="submit" type="submit"><span>Send Message</span></button>
 							</form>
 						</div>
 					</div>
@@ -138,6 +138,7 @@
 				<?php
 				//Bind XSS Here
 require('config.php');
+//error_reporting(0);
 if (isset($_POST['submit']))
 {
 $fname=mysqli_real_escape_string($conn,$_POST['fname']);
@@ -149,23 +150,13 @@ $success = $conn->query($sql);
 if (!$success) {
     die("Couldn't enter data: ".$conn->error);
 }
-else{""
+else{
 echo "<script>alert('Your Request has been received')</script>";
 }
 }
 $conn->close();
 ?>
-<?php
-require ('config.php');
-  if (!$success) {
-    die("Couldn't enter data: ".$conn->error);
-}
-else{
-  
-echo "<script>console.log("$fname.$lname.$subject.$message")</script>";
-}
-$conn->close();
-?>
+
 				<!-- Contact Info -->
 				<div class="col-lg-3 offset-xl-1 contact_col">
 					<div class="contact_info">

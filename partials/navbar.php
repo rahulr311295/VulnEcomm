@@ -10,11 +10,11 @@
 									<li class="hassubs active">
 										<a href="index.php">Home</a>
 										<ul>
-											<li><a href="categories.php">Categories</a></li>
-											<li><a href="product.php">Product</a></li>
-											<li><a href="cart.php">Cart</a></li>
-											<li><a href="checkout.php">Check out</a></li>
-											<li><a href="contact.php">Contact</a></li>
+											<li><a href="?page=categories.php">Categories</a></li>
+											<li><a href="?page=product.php">Product</a></li>
+											<li><a href="?page=cart.php">Cart</a></li>
+											<li><a href="?page=checkout.php">Check out</a></li>
+											<li><a href="?page=scontact.php">Contact</a></li>
 										</ul>
 									</li>
 									<li class="hassubs">

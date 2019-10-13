@@ -40,7 +40,7 @@
 					<li class="page_menu_item has-children menu_mm">
 						<a href="index.php">Home<i class="fa fa-angle-down"></i></a>
 						<ul class="page_menu_selection menu_mm">
-							<li class="page_menu_item menu_mm"><a href="categories.php">Categories<i class="fa fa-angle-down"></i></a></li>
+							<li class="page_menu_item menu_mm"><a href="?page=categories.php">Categories<i class="fa fa-angle-down"></i></a></li>
 							<li class="page_menu_item menu_mm"><a href="product.php">Product<i class="fa fa-angle-down"></i></a></li>
 							<li class="page_menu_item menu_mm"><a href="cart.php">Cart<i class="fa fa-angle-down"></i></a></li>
 							<li class="page_menu_item menu_mm"><a href="checkout.php">Checkout<i class="fa fa-angle-down"></i></a></li>
