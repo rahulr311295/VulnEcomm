@@ -14,7 +14,7 @@
 											<li><a href="?page=product.php">Product</a></li>
 											<li><a href="?page=cart.php">Cart</a></li>
 											<li><a href="?page=checkout.php">Check out</a></li>
-											<li><a href="?page=scontact.php">Contact</a></li>
+											<li><a href="?page=contact.php">Contact</a></li>
 										</ul>
 									</li>
 									<li class="hassubs">
