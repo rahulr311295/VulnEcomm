@@ -29,7 +29,7 @@ if (isset($_POST['submit'])){
     echo $_SESSION['username'];
           // Redirect user to index.php
     echo $_SESSION['username'];
-    header("Location: admin.php");
+    header("Location: profile.php");
        }else{
 echo "<center>
 <span class=\"alert alert-danger\">
